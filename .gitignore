@@ -3,3 +3,14 @@
 ################################################################################
 
 /IMC.API.Services/bin/Debug/netcoreapp3.1
+/IMC.API.DTO/bin/Debug/netcoreapp3.1
+/IMC.API.DTO/obj
+/IMC.API.Integrations/bin/Debug/netcoreapp3.1
+/IMC.API.Integrations/obj
+/IMC.API.Services/obj
+/UnitTests/TaxjarAPI_UnitTest/bin/Debug
+/UnitTests/TaxjarAPI_UnitTest/obj
+/UnitTests/TaxService_API_Tests/bin/Debug/netcoreapp3.1
+/UnitTests/TaxService_API_Tests/obj
+/UnitTests/TaxService_UnitTest/bin/Debug/netcoreapp3.1
+/UnitTests/TaxService_UnitTest/obj

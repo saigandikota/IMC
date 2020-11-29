@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.API.Integrations", "IMC.API.Integrations\IMC.API.Integrations.csproj", "{7246E495-83B3-428E-B3BE-9A2919B95078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{C08428B3-1829-4798-B594-9B2733B05A81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxjarAPI_UnitTest", "UnitTests\TaxjarAPI_UnitTest\TaxjarAPI_UnitTest.csproj", "{614BC68B-1F3C-42E5-A4FC-3B462C3396BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxService_UnitTest", "UnitTests\TaxService_API_Tests\TaxService_UnitTest.csproj", "{270653F6-7784-473A-9768-82AF8C1116A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.API.Services", "IMC.API.Services\IMC.API.Services.csproj", "{48B917AC-5D58-4C02-A53B-B5CEF030BA0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC.API.DTO", "IMC.API.DTO\IMC.API.DTO.csproj", "{EBFA9B38-4DA8-4BA9-A7CB-0123E9F57E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7246E495-83B3-428E-B3BE-9A2919B95078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7246E495-83B3-428E-B3BE-9A2919B95078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7246E495-83B3-428E-B3BE-9A2919B95078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7246E495-83B3-428E-B3BE-9A2919B95078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614BC68B-1F3C-42E5-A4FC-3B462C3396BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614BC68B-1F3C-42E5-A4FC-3B462C3396BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614BC68B-1F3C-42E5-A4FC-3B462C3396BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614BC68B-1F3C-42E5-A4FC-3B462C3396BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270653F6-7784-473A-9768-82AF8C1116A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270653F6-7784-473A-9768-82AF8C1116A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270653F6-7784-473A-9768-82AF8C1116A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270653F6-7784-473A-9768-82AF8C1116A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B917AC-5D58-4C02-A53B-B5CEF030BA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B917AC-5D58-4C02-A53B-B5CEF030BA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B917AC-5D58-4C02-A53B-B5CEF030BA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B917AC-5D58-4C02-A53B-B5CEF030BA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFA9B38-4DA8-4BA9-A7CB-0123E9F57E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFA9B38-4DA8-4BA9-A7CB-0123E9F57E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFA9B38-4DA8-4BA9-A7CB-0123E9F57E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFA9B38-4DA8-4BA9-A7CB-0123E9F57E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{614BC68B-1F3C-42E5-A4FC-3B462C3396BC} = {C08428B3-1829-4798-B594-9B2733B05A81}
+		{270653F6-7784-473A-9768-82AF8C1116A5} = {C08428B3-1829-4798-B594-9B2733B05A81}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {507BBA2D-8B5E-4B56-A9F6-E9DC589D34A0}
+	EndGlobalSection
+EndGlobal
